@@ -8,18 +8,18 @@ if(answer === 'left'){ //why do I have to enter the anwser twice??//
 }
                 if( secondAnswer === "follow it"){
                          
-                        let followAnwser = window.alert ("You follow the cat to a colory of cats, nestled ina fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical sage haven.")
-                } //good up until here
-                if( followAnwser === "stay") {
+                        let followAnwser = window.prompt ("You follow the cat to a colory of cats, nestled ina fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical sage haven.")
+        } //good up until here
+                                if( followAnwser === "stay") {
 
-                        let stayAnwser = window.alert ("You live happily amongst the cats for the rest of your days.")
+                         let stayAnwser = window.alert ("You live happily amongst the cats for the rest of your days.")
        }
 
-                else if ( followAnwser === "spread the word") {
+                         else if ( followAnwser === "spread the word") {
 
                         let spreadAnwser = window.alert (" After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.")
        }
-} else if ( secondAnswer === "continue on your path") {
+                 else if ( secondAnswer === "continue on your path") {
 
         let continueAnswer = window.prompt (" You come across a chamber that reaches upward to a shining light above. There is a long, winding staircase, and much quicker, but rickety-looking ladder that leads up toward the light. Which do you take?")
 }
@@ -31,16 +31,16 @@ if(answer === 'left'){ //why do I have to enter the anwser twice??//
 
                       let staircaseAnswer = window.alert ("After ascening the staircase, you discover a shiny blue stone, which you take home and cherish forever.")
               }
-}
 
-} else if (answer === "right") {
+
+ else if (answer === "right") {
 
 let secondAnswer = window.prompt ("You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?")
 
 }
 if (secondAnswer === "past the dragon") {
 
-      let pastAnswer = window.prompt (" The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:") {
+      let pastAnswer = window.prompt (" The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:") 
 
               if( pastAnswer === "stay") {
 
@@ -54,11 +54,11 @@ if (secondAnswer === "past the dragon") {
               }
 
               }
-      }
-}
+      
+
 else if( secondAnswer === "away from the dragon") {
 
-      let awayAnswer = window.prompt("After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?") {
+      let awayAnswer = window.prompt("After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?") 
 
               if (awayAnswer === "draw it") {
 
@@ -70,6 +70,4 @@ else if( secondAnswer === "away from the dragon") {
                       let awayAnswer = window.alert ("You pick the flower and bring it home, and all marvel at its billiance. However, over time it fades and eventually crumbles to dust.")
               }
       }
-}
-}
-}
+
